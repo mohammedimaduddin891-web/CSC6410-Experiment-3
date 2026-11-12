@@ -1,0 +1,20 @@
+{
+  "student-host:host": {
+    "os": "windows",
+    "interface": [
+      {
+        "name": "Wi-Fi",
+        "type": "wifi",
+        "oper-status": "up",
+        "mtu": 1500,
+        "ipv4": ["192.168.1.69/24"]
+      },
+      {
+        "name": "Ethernet",
+        "type": "ethernet",
+        "oper-status": "down",
+        "mtu": 1500
+      }
+    ]
+  }
+}

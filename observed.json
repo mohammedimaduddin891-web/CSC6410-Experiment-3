@@ -1,0 +1,178 @@
+{
+  "student-host:host": {
+    "hostname": "DESKTOP-D1QVRL7",
+    "os": "windows",
+    "collected-at": "2026-11-12T11:41:47-05:00",
+    "interface": [
+      {
+        "name": "6to4 Adapter",
+        "type": "virtual",
+        "oper-status": "down"
+      },
+      {
+        "name": "Bluetooth Network Connection",
+        "type": "other",
+        "oper-status": "down",
+        "mac": "b4:6b:fc:de:05:7f",
+        "mtu": 1500,
+        "ipv6": [
+          "fe80::a96d:4cce:834f:c35/64"
+        ],
+        "ipv4": [
+          "169.254.250.177/16"
+        ]
+      },
+      {
+        "name": "Ethernet",
+        "type": "ethernet",
+        "oper-status": "down",
+        "mac": "10:65:30:59:82:53",
+        "mtu": 1500,
+        "ipv6": [
+          "fe80::2c99:8a7c:a9e0:28df/64"
+        ],
+        "ipv4": [
+          "169.254.253.100/16"
+        ]
+      },
+      {
+        "name": "Ethernet (Kernel Debugger)",
+        "type": "virtual",
+        "oper-status": "down"
+      },
+      {
+        "name": "Local Area Connection* 1",
+        "type": "virtual",
+        "oper-status": "down",
+        "mac": "b4:6b:fc:de:05:7c",
+        "mtu": 1500,
+        "ipv6": [
+          "fe80::cf27:dd72:a705:bb05/64"
+        ],
+        "ipv4": [
+          "169.254.127.54/16"
+        ]
+      },
+      {
+        "name": "Local Area Connection* 10",
+        "type": "virtual",
+        "oper-status": "down",
+        "mac": "b6:6b:fc:de:05:7b",
+        "mtu": 1500,
+        "ipv6": [
+          "fe80::eeff:7eb0:76ee:69de/64"
+        ],
+        "ipv4": [
+          "169.254.156.116/16"
+        ]
+      },
+      {
+        "name": "Local Area Connection* 2",
+        "type": "virtual",
+        "oper-status": "down",
+        "mtu": 4091
+      },
+      {
+        "name": "Local Area Connection* 3",
+        "type": "virtual",
+        "oper-status": "down",
+        "mtu": 1480
+      },
+      {
+        "name": "Local Area Connection* 4",
+        "type": "virtual",
+        "oper-status": "down",
+        "mtu": 1460
+      },
+      {
+        "name": "Local Area Connection* 5",
+        "type": "virtual",
+        "oper-status": "down",
+        "mtu": 1464
+      },
+      {
+        "name": "Local Area Connection* 6",
+        "type": "virtual",
+        "oper-status": "down",
+        "mtu": 1494
+      },
+      {
+        "name": "Local Area Connection* 7",
+        "type": "virtual",
+        "oper-status": "up",
+        "mtu": 1500
+      },
+      {
+        "name": "Local Area Connection* 8",
+        "type": "virtual",
+        "oper-status": "up",
+        "mtu": 1500
+      },
+      {
+        "name": "Local Area Connection* 9",
+        "type": "virtual",
+        "oper-status": "up",
+        "mtu": 1500
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "type": "loopback",
+        "oper-status": "up",
+        "ipv6": [
+          "::1/128"
+        ],
+        "ipv4": [
+          "127.0.0.1/8"
+        ]
+      },
+      {
+        "name": "Microsoft IP-HTTPS Platform Interface",
+        "type": "other",
+        "oper-status": "down"
+      },
+      {
+        "name": "NordLynx",
+        "type": "virtual",
+        "oper-status": "up",
+        "ipv6": [
+          "fe80::df5f:3049:99fa:72f7/64"
+        ],
+        "ipv4": [
+          "10.5.0.2/16"
+        ]
+      },
+      {
+        "name": "OpenVPN Data Channel Offload for NordVPN",
+        "type": "virtual",
+        "oper-status": "down",
+        "mtu": 1500,
+        "ipv6": [
+          "fe80::df5f:3049:99fa:72f7/64"
+        ],
+        "ipv4": [
+          "169.254.221.125/16"
+        ]
+      },
+      {
+        "name": "Teredo Tunneling Pseudo-Interface",
+        "type": "virtual",
+        "oper-status": "down"
+      },
+      {
+        "name": "Wi-Fi",
+        "type": "wifi",
+        "oper-status": "up",
+        "mac": "b4:6b:fc:de:05:7b",
+        "mtu": 1500,
+        "ipv4": [
+          "192.168.1.69/24"
+        ]
+      }
+    ],
+    "default-gateway": "10.5.0.1",
+    "dns-server": [
+      "103.86.96.100",
+      "103.86.99.100"
+    ]
+  }
+}

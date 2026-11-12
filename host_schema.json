@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "student-host (Experiment 3): JSON Schema written from host_model.yang",
+  "type": "object",
+  "required": ["student-host:host"],
+  "additionalProperties": false,
+  "properties": {
+    "student-host:host": {
+      "type": "object",
+      "required": ["hostname", "os"],
+      "additionalProperties": false,
+      "properties": {
+        "hostname": {"type": "string", "minLength": 1, "maxLength": 253},
+        "os": {"enum": ["windows", "macos", "linux"]},
+        "collected-at": {"type": "string"},
+        "default-gateway": {"type": "string", "pattern": "^(\\d{1,3}\\.){3}\\d{1,3}$"},
+        "dns-server": {"type": "array", "items": {"type": "string"}},
+        "interface": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "oper-status"],
+            "additionalProperties": false,
+            "properties": {
+              "name": {"type": "string", "minLength": 1, "maxLength": 64},
+              "type": {"enum": ["ethernet", "wifi", "loopback", "virtual", "other"]},
+              "mac": {"type": "string", "pattern": "^[0-9a-f]{2}(:[0-9a-f]{2}){5}$"},
+              "oper-status": {"enum": ["up", "down"]},
+              "mtu": {"type": "integer", "minimum": 68, "maximum": 65536},
+              "ipv4": {"type": "array", "items": {"type": "string", "pattern": "^(\\d{1,3}\\.){3}\\d{1,3}/\\d{1,2}$"}},
+              "ipv6": {"type": "array", "items": {"type": "string"}}
+            }
+          }
+        }
+      }
+    }
+  }
+}
